@@ -1,0 +1,76 @@
+/* brown for nav #2c2724 */
+
+/*  pink background #dfc4b3 */
+
+* {
+margin-top: 0;
+}
+
+body {
+  display: flex;
+  justify-content:center;
+  background-color: #dfc4b3;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  width: 1280px;
+  box-shadow: 10px 4px 10px #888;
+
+}
+
+.site-header {
+  flex-basis: 100%;
+  background-image:  url("../img/iphone-background.jpg");
+  background-size: cover;
+
+}
+
+.nav-ul {
+  background-color: #2c2724;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+
+}
+
+li {
+  list-style: none;
+}
+
+.nav-ul li {
+  color: white;
+}
+
+.header-content {
+  color: #33331F;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 120px auto;
+  }
+
+a{
+  color: #33331F;
+  text-decoration: none;
+  padding:30px;
+}
+
+h2{
+  color: #33331F;
+  font-size: 3em;
+  text-transform: uppercase;
+  padding: 40px;
+  margin:0;
+}
+
+h1 {
+  font-weight: 500;
+  color: #33331F;
+  font-size: 3em;
+  margin-top;
+}
+
+.header-links {
+ display: flex;
+ justify-content: center;
+}
